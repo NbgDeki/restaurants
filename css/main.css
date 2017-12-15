@@ -28,4 +28,9 @@ body, html {
   background: #CCB08E !important;
   color: #fff !important; }
 
+full1 {
+  width: 100%;
+  height: 70px;
+  background-color: green; }
+
 /*# sourceMappingURL=main.css.map */
