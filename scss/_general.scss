@@ -1,0 +1,30 @@
+body, html{
+height: 100%;
+padding: 0;
+margin: 0;
+}
+.container-fluid {
+padding-left: 0;
+padding-right: 0;
+}
+.container{
+width: 980px;
+padding-left: 0;
+padding-right: 0;
+}
+.row{
+margin-right: 0;
+margin-left: 0;
+}
+.scroller {
+    overflow-x: hidden; 
+}
+::selection {
+    background: #ff9600 !important;
+    color: #fff !important; 
+}
+  
+  ::-moz-selection {
+    background: #CCB08E !important;
+    color: #fff !important; 
+}
