@@ -89,12 +89,162 @@ body, html {
       width: 85px;
       border: none; }
 
-.container-fluid {
-  height: 460px; }
-  .container-fluid .row {
-    height: 460px; }
-  .container-fluid .cover1 {
-    background: url("../img/cover/restorani-cover.jpg");
-    height: 460px; }
+.naslov-forme {
+  margin-bottom: 30px;
+  display: table;
+  height: 460px;
+  background: url("../img/cover/restorani-cover.jpg"); }
+  .naslov-forme .forme1-wrapper {
+    display: table-cell;
+    vertical-align: middle; }
+  .naslov-forme .cover-header h3 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px; }
+  .naslov-forme .forme1 {
+    text-align: center; }
+    .naslov-forme .forme1 .form-group .form-control {
+      display: inline-block;
+      text-transform: capitalize;
+      margin-left: -6px;
+      box-shadow: none;
+      outline-color: transparent; }
+      .naslov-forme .forme1 .form-group .form-control:hover {
+        box-shadow: none;
+        outline-color: transparent; }
+    .naslov-forme .forme1 .form-group .form-control:first-child {
+      width: 380px; }
+    .naslov-forme .forme1 .form-group .form-control:nth-child(2) {
+      width: 135px;
+      border-left: 2px solid #999999; }
+    .naslov-forme .forme1 .form-group .form-control:nth-child(3) {
+      width: 120px;
+      border-left: 2px solid #999999; }
+    .naslov-forme .forme1 .form-group .form-control:nth-child(4) {
+      width: 130px;
+      border-left: 2px solid #999999; }
+    .naslov-forme .forme1 .form-group .btn-default {
+      margin-left: 5px;
+      padding-top: 7px;
+      margin-bottom: 3px;
+      width: 160px;
+      background-color: #960202;
+      color: #fff;
+      transition: all .5s ease; }
+      .naslov-forme .forme1 .form-group .btn-default:hover {
+        background-color: #f5f3f4;
+        color: #000; }
+
+.button-pick {
+  padding-left: 20px;
+  margin-bottom: 30px; }
+  .button-pick .btn-default {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #fff;
+    color: #a64343;
+    border: 1px solid #c9c9c9; }
+
+.full2 {
+  width: 100%;
+  background-color: #f5f3f4; }
+  .full2 .container {
+    background-color: #f5f3f4; }
+  .full2 .lista-header {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-wrap: nowrap; }
+    .full2 .lista-header h3 {
+      font-size: 24px;
+      font-weight: 500;
+      color: #333333;
+      flex-shrink: 0;
+      margin-bottom: 25px;
+      margin-top: 20px; }
+    .full2 .lista-header:after {
+      height: 1px;
+      width: 100%;
+      content: '';
+      background-color: #960202;
+      margin-left: 20px; }
+  .full2 .lista-restorana {
+    margin-bottom: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(auto, auto);
+    grid-gap: 30px; }
+    .full2 .lista-restorana .restoran-wrapper {
+      text-align: center;
+      grid-column: span 4;
+      background-color: #fff;
+      padding: 10px; }
+    .full2 .lista-restorana .img-wrapper {
+      position: relative; }
+      .full2 .lista-restorana .img-wrapper .restoran-hover {
+        display: none;
+        position: absolute;
+        cursor: pointer;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8); }
+        .full2 .lista-restorana .img-wrapper .restoran-hover .opis-restorana {
+          padding: 20px 20px 0 20px; }
+          .full2 .lista-restorana .img-wrapper .restoran-hover .opis-restorana p {
+            font-weight: 400;
+            font-size: 14px;
+            text-align: justify; }
+        .full2 .lista-restorana .img-wrapper .restoran-hover .rezervisi-restoran {
+          position: absolute;
+          width: 100%;
+          height: 45px;
+          background-color: #960202;
+          display: flex;
+          align-items: center; }
+          .full2 .lista-restorana .img-wrapper .restoran-hover .rezervisi-restoran a {
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 17px;
+            margin-left: 20px; }
+          .full2 .lista-restorana .img-wrapper .restoran-hover .rezervisi-restoran .fa-heart {
+            position: absolute;
+            right: 15px;
+            bottom: 14px; }
+    .full2 .lista-restorana .restoran-heading {
+      text-align: left;
+      margin-top: 15px;
+      padding-left: 10px; }
+      .full2 .lista-restorana .restoran-heading h5 {
+        color: #333333;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 5px;
+        transition: all .5s ease; }
+        .full2 .lista-restorana .restoran-heading h5:hover {
+          color: #960202; }
+      .full2 .lista-restorana .restoran-heading h6 {
+        color: #999999;
+        font-weight: 400;
+        margin-bottom: 5px; }
+  .full2 .pogledajte-jos {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+    .full2 .pogledajte-jos .btn-warning {
+      background-color: #960202;
+      height: 60px;
+      width: 160px;
+      border: none;
+      font-weight: 500;
+      font-size: 17px;
+      color: #fff; }
+
+.jq-ry-container {
+  padding: 0; }
 
 /*# sourceMappingURL=main.css.map */
