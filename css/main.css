@@ -26,11 +26,11 @@ body, html {
   overflow-x: hidden; }
 
 ::selection {
-  background: #ff9600 !important;
+  background: #960202 !important;
   color: #fff !important; }
 
 ::-moz-selection {
-  background: #CCB08E !important;
+  background: #960202 !important;
   color: #fff !important; }
 
 .full1 {
@@ -62,11 +62,39 @@ body, html {
     border: none;
     border-left: 2px solid #999999;
     outline-color: transparent;
-    font-weight: 500;
+    font-weight: 400;
     background-color: #f5f3f4;
     color: #000; }
     .full1 .form-control:focus {
       outline-color: transparent;
       box-shadow: none; }
+  .full1 .prijava {
+    grid-column: 10/12;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0; }
+    .full1 .prijava a {
+      text-decoration: none;
+      font-weight: 500;
+      color: #960202;
+      transition: all .5s ease; }
+      .full1 .prijava a:hover {
+        color: #000; }
+  .full1 .odabir-drzave {
+    grid-column: 12/13;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0; }
+    .full1 .odabir-drzave .form-control {
+      width: 85px;
+      border: none; }
+
+.container-fluid {
+  height: 460px; }
+  .container-fluid .row {
+    height: 460px; }
+  .container-fluid .cover1 {
+    background: url("../img/cover/restorani-cover.jpg");
+    height: 460px; }
 
 /*# sourceMappingURL=main.css.map */

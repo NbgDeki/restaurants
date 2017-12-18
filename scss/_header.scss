@@ -33,12 +33,37 @@
         border: none;
         border-left: 2px solid $siva;
         outline-color: transparent;
-        font-weight: 500;
+        font-weight: 400;
         background-color: $svetloSiva;
         color: $crna;
         &:focus{
             outline-color: transparent;
             box-shadow: none;
+        }
+    }
+    .prijava{
+       grid-column: 10/12;
+       display: flex;
+       align-items: center;
+       flex-shrink: 0;
+       a{
+           text-decoration: none;
+           font-weight: 500;
+           color: $tamnoCrvena;
+           transition: all .5s ease;
+           &:hover{
+               color: $crna;
+           }
+       }
+    }
+    .odabir-drzave{
+        grid-column: 12/13;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        .form-control{
+            width: 85px;
+            border: none;
         }
     }
 }

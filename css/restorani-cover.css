@@ -1,0 +1,9 @@
+.container-fluid {
+  height: 460px; }
+  .container-fluid .row {
+    height: 460px; }
+  .container-fluid .cover1 {
+    background: url("../img/cover/restorani-cover.jpg");
+    height: 460px; }
+
+/*# sourceMappingURL=restorani-cover.css.map */
