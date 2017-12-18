@@ -224,9 +224,20 @@
 	
 		<div class="full1">
 			<div class="container">
-				<div class="row">
-						
-				</div>	
+				<div class="restorani-beograd">
+					<div class="logo-wrapper">
+						<a href=""><img src="img/header/Homepage-Restorani.png" alt="logo"></a>		
+					</div>
+					<div class="form-group odabir-grada">
+						<select class="form-control" id="sel1">
+						  <option>Beograd</option>
+						  <option>Novi Sad</option>
+						  <option>Nis</option>
+						  <option>Sabac</option>
+						</select>
+					  </div>
+				</div>
+
 			</div>	
 		</div>	
 
@@ -281,33 +292,6 @@
 					} );
 		</script>
 		
-		<!-- <script>
-		//new WOW().init();
-		$(document).ready(function(){
-			var scrollDiv = $(".scroller");
-			var target = $(".img-wrapper2");
-			var scrollDivHeight = $(".scroller").height();
-			var targetTop = target.offset().top;
-			var scrollDivTop = scrollDiv.offset().top
-			var toScroll = targetTop - scrollDivTop - scrollDivHeight; // scroll to see element
-			var addToClass = target.attr('data-animation');
-			// var transition = target.attr('data-wow-duration');
-			var visibleClass = "visible";
-			console.log('scrollDivHeight: ' + scrollDivHeight);
-			console.log('targetTop: ' + targetTop);
-			console.log('toScroll: ' + toScroll);
-			console.log('addToClass: ' + addToClass);
-			scrollDiv.scroll(function(){
-				var scrolled = $(this).scrollTop();
-				console.log('scrolled : '+scrolled);
-				if(scrolled > toScroll){
-					target.addClass(visibleClass).addClass(addToClass);
-					console.log('"'+addToClass+'" has been added!');
-				}else{
-					target.removeClass(visibleClass).removeClass(addToClass);
-				}
-			});
-		});
-		</script> -->
+		
 	</body>
 </html>

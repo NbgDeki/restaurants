@@ -1,3 +1,8 @@
+/************************************************************
+
+					     PROMENLJIVE
+
+************************************************************/
 body, html {
   height: 100%;
   padding: 0;
@@ -28,9 +33,40 @@ body, html {
   background: #CCB08E !important;
   color: #fff !important; }
 
-full1 {
+.full1 {
   width: 100%;
   height: 70px;
-  background-color: green; }
+  background-color: #f5f3f4; }
+  .full1 .container {
+    background-color: #f5f3f4; }
+  .full1 .restorani-beograd {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(auto, auto); }
+  .full1 .logo-wrapper {
+    grid-column: 1/3;
+    display: flex;
+    align-items: center;
+    height: 70px; }
+    .full1 .logo-wrapper img {
+      margin-left: 10px; }
+  .full1 .odabir-grada {
+    grid-column: 3/5;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0; }
+  .full1 .form-control {
+    width: 130px;
+    text-transform: uppercase;
+    border-radius: 0;
+    border: none;
+    border-left: 2px solid #999999;
+    outline-color: transparent;
+    font-weight: 500;
+    background-color: #f5f3f4;
+    color: #000; }
+    .full1 .form-control:focus {
+      outline-color: transparent;
+      box-shadow: none; }
 
 /*# sourceMappingURL=main.css.map */
