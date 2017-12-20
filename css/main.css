@@ -135,6 +135,9 @@ body, html {
         background-color: #f5f3f4;
         color: #000; }
 
+[class*='button-pick'] {
+  padding: 0; }
+
 .button-pick {
   padding-left: 20px;
   margin-bottom: 30px; }
@@ -145,7 +148,26 @@ body, html {
     font-weight: 300;
     background-color: #fff;
     color: #a64343;
-    border: 1px solid #c9c9c9; }
+    border: 1px solid #c9c9c9;
+    transition: all .5s ease; }
+    .button-pick .btn-default:hover {
+      background-color: #a64343;
+      color: #999999; }
+  .button-pick .btn-outline-primary {
+    background-color: #fff;
+    color: #333333;
+    border: 1px solid #c9c9c9;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    transition: all .5s ease; }
+    .button-pick .btn-outline-primary:hover {
+      background-color: #c9c9c9;
+      color: #fff; }
+
+[class*="lista-header"] {
+  padding: 0; }
 
 .full2 {
   width: 100%;
@@ -242,7 +264,14 @@ body, html {
       border: none;
       font-weight: 500;
       font-size: 17px;
-      color: #fff; }
+      color: #fff;
+      transition: all .5s ease;
+      border: 1px solid transparent;
+      margin-bottom: 20px; }
+      .full2 .pogledajte-jos .btn-warning:hover {
+        background-color: #fff;
+        color: #960202;
+        border: 1px solid #960202; }
 
 .jq-ry-container {
   padding: 0; }

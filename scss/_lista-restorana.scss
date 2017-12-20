@@ -1,3 +1,6 @@
+[class*="lista-header"]{
+    padding: 0;
+}
 .full2{
     width: 100%;
     background-color: $svetloSiva;
@@ -114,6 +117,14 @@
             font-weight: 500;
             font-size: 17px;
             color: $bela;
+            transition: all .5s ease;
+            border: 1px solid transparent;
+            margin-bottom: 20px;
+            &:hover{
+                background-color: #fff;
+                color: $tamnoCrvena;
+                border: 1px solid $tamnoCrvena;
+            }
         }
        
     }

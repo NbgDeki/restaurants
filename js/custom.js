@@ -19,7 +19,7 @@ $(".rateYo").rateYo("option", "starWidth", "15px"); //returns a jQuery Element
 
 });
 $('.img-wrapper').mouseover(function(){
-    $('.restoran-hover').fadeIn(500);
+    $(this).find('.restoran-hover').fadeIn(500);
 });
 $('.restoran-hover').mouseleave(function(){
   $(this).fadeOut(500);
