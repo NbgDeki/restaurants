@@ -22,6 +22,14 @@ $(function () {
     }
     }
     });
+    owl = $('.slider1').owlCarousel();
+$(".prev").click(function () {
+    owl.trigger('prev.owl.carousel');
+});
+
+$(".arrow-right").click(function () {
+    owl.trigger('next.owl.carousel');
+});
 /************************************************************
 
 						              ZVEZDICE

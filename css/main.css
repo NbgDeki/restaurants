@@ -319,6 +319,7 @@ body, html {
   .container .one-slide-wrapper a:hover {
     color: #000; }
 .container .arrow-right {
+  cursor: pointer;
   width: 20px;
   height: 20px;
   border-top: 2px solid #000;
