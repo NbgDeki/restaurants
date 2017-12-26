@@ -14,13 +14,41 @@ $bela: #fff;
 
 
 @import "general";
-@import "responsive";
 @import "header";
 @import "restorani-cover";
 @import "button-pick";
 @import "lista-restorana";
 @import "slider";
+@import "preporuke";
+@import "responsive";
 
 .jq-ry-container{
 	padding: 0;
+}
+// .img-fluid{
+// 	width: 100%;
+// 	height: auto;
+// }
+.lista-header{
+	text-align: left;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+	flex-wrap: nowrap;
+	h3{
+		font-size: 24px;
+		font-weight: 500;
+		color: $tamnoSiva;
+		flex-shrink: 0;
+		margin-bottom: 25px;
+		margin-top: 20px;
+	}
+	&:after{
+		height: 1px;
+		width: 100%;
+		content:'';
+		background-color: $tamnoCrvena;
+		margin-left: 20px;
+	}
 }
