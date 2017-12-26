@@ -347,6 +347,17 @@ body, html {
       .grid-wrapper1 .preporuka-link a:hover {
         color: #333333; }
 
+.novosti-wrapper {
+  width: 100%;
+  height: 509px;
+  background: url("../img/cover/crveni-cover.jpg") no-repeat center;
+  display: table; }
+  .novosti-wrapper .novosti {
+    display: table-cell; }
+  .novosti-wrapper .novosti-tekst {
+    width: 980px;
+    margin: 0 auto; }
+
 @media (max-width: 575px) {
   .container {
     max-width: 530px; } }

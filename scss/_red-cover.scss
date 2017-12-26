@@ -1,0 +1,14 @@
+.novosti-wrapper{
+    width: 100%;
+    height: 509px;
+    background: url('../img/cover/crveni-cover.jpg') no-repeat center;
+    display: table;
+    .novosti{
+        display: table-cell;
+        // vertical-align: middle;
+    }
+    .novosti-tekst{
+        width: 980px;
+        margin: 0 auto;
+    }
+}
