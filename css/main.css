@@ -3,7 +3,8 @@
 					     PROMENLJIVE
 
 ************************************************************/
-body, html {
+body,
+html {
   height: 100%;
   padding: 0;
   margin: 0;
@@ -384,7 +385,10 @@ body, html {
       color: #960202;
       text-transform: capitalize;
       font-weight: 400;
-      font-size: 14px; }
+      font-size: 14px;
+      transition: all .5s ease; }
+      .novosti-wrapper .restoran-detaljnije a:hover {
+        color: #999999; }
     .novosti-wrapper .restoran-detaljnije h3 {
       font-weight: 500;
       font-size: 16px;
