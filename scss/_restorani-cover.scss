@@ -1,68 +1,61 @@
-.naslov-forme{
+.naslov-forme {
     margin-bottom: 30px;
     display: table;
     height: 460px;
     background: url('../img/cover/restorani-cover.jpg');
-    .forme1-wrapper{
+    .forme1-wrapper {
         display: table-cell;
         vertical-align: middle;
     }
-    .cover-header{
-        h3{
+    .cover-header {
+        h3 {
             font-size: 36px;
             text-align: center;
             margin-bottom: 40px;
         }
     }
-    .forme1{
+    .forme1 {
         text-align: center;
-        
-        .form-group{
-            
-            .form-control{
+        .form-group {
+            .form-control {
                 display: inline-block;
                 text-transform: capitalize;
-                margin-left: -6px;
-                // border-radius: 0;
+                margin-left: -6px; // border-radius: 0;
                 box-shadow: none;
                 outline-color: transparent;
-                &:hover{
+                &:hover {
                     box-shadow: none;
                     outline-color: transparent;
-                } 
+                }
             }
-            .form-control:first-child{
+            .form-control:first-child {
                 width: 380px;
             }
-            .form-control:nth-child(2){
+            .form-control:nth-child(2) {
                 width: 135px;
                 border-left: 2px solid $siva;
             }
-            .form-control:nth-child(3){
+            .form-control:nth-child(3) {
                 width: 120px;
                 border-left: 2px solid $siva;
             }
-            .form-control:nth-child(4){
+            .form-control:nth-child(4) {
                 width: 130px;
                 border-left: 2px solid $siva;
             }
-            .btn-default{
+            .btn-default {
                 margin-left: 5px;
                 padding-top: 7px;
                 margin-bottom: 3px;
                 width: 160px;
                 background-color: $tamnoCrvena;
                 color: $bela;
-                transition: all .5s ease;
-                // border-radius: 0;
-                &:hover{
+                transition: all .5s ease; // border-radius: 0;
+                &:hover {
                     background-color: $svetloSiva;
                     color: $crna;
                 }
             }
-            
-            
-           
         }
     }
-    }
+}

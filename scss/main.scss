@@ -3,6 +3,7 @@
 					     PROMENLJIVE
 
 ************************************************************/
+
 $svetloSiva: #f5f3f4;
 $tamnoSiva: #333333;
 $siva: #999999;
@@ -11,8 +12,6 @@ $tamnoCrvena: #960202;
 $svetloCrvena: #a64343;
 $crna: #000;
 $bela: #fff;
-
-
 @import "general";
 @import "header";
 @import "restorani-cover";
@@ -22,22 +21,22 @@ $bela: #fff;
 @import "preporuke";
 @import "red-cover";
 @import "responsive";
-
-.jq-ry-container{
+.jq-ry-container {
 	padding: 0;
 }
+
 // .img-fluid{
 // 	width: 100%;
 // 	height: auto;
 // }
-.lista-header{
+.lista-header {
 	text-align: left;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	flex-shrink: 0;
 	flex-wrap: nowrap;
-	h3{
+	h3 {
 		font-size: 24px;
 		font-weight: 500;
 		color: $tamnoSiva;
@@ -45,10 +44,10 @@ $bela: #fff;
 		margin-bottom: 25px;
 		margin-top: 20px;
 	}
-	&:after{
+	&:after {
 		height: 1px;
 		width: 100%;
-		content:'';
+		content: '';
 		background-color: $tamnoCrvena;
 		margin-left: 20px;
 	}

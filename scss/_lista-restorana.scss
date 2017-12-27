@@ -1,61 +1,60 @@
-[class*="lista-header"]{
+[class*="lista-header"] {
     padding: 0;
 }
-.full2{
+
+.full2 {
     width: 100%;
     background-color: $svetloSiva;
-    .container{
+    .container {
         background-color: $svetloSiva;
     }
-    .row{
-
-    }
-    .lista-restorana{
+    .row {}
+    .lista-restorana {
         margin-bottom: 30px;
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(12,1fr);
-        grid-auto-rows: minmax(auto,auto);
+        grid-template-columns: repeat(12, 1fr);
+        grid-auto-rows: minmax(auto, auto);
         grid-gap: 30px;
-        .restoran-wrapper{
+        .restoran-wrapper {
             text-align: center;
             grid-column: span 4;
             background-color: $bela;
             padding: 10px;
         }
-        .img-wrapper{
+        .img-wrapper {
             position: relative;
             width: fit-content;
             margin: 0 auto;
-            .restoran-hover{
+            .restoran-hover {
                 display: none;
                 position: absolute;
                 cursor: pointer;
                 width: 100%;
                 height: 100%;
                 background-color: rgba(0, 0, 0, 0.8);
-                .opis-restorana{
-                   padding: 20px 20px 0 20px;
-                   p{
-                       font-weight: 400;
-                       font-size: 14px;
-                       text-align: justify;
-                   }
+                .opis-restorana {
+                    padding: 20px 20px 0 20px;
+                    p {
+                        font-weight: 400;
+                        font-size: 14px;
+                        text-align: justify;
+                    }
                 }
-                .rezervisi-restoran{
+                .rezervisi-restoran {
                     position: absolute;
                     width: 100%;
                     height: 45px;
                     background-color: $tamnoCrvena;
                     display: flex;
                     align-items: center;
-                    a{
+                    a {
                         text-decoration: none;
                         font-weight: 500;
                         font-size: 17px;
                         margin-left: 20px;
                     }
-                    .fa-heart{
+                    .fa-heart {
                         position: absolute;
                         right: 15px;
                         bottom: 14px;
@@ -63,48 +62,47 @@
                 }
             }
         }
-        .restoran-heading{
+        .restoran-heading {
             text-align: left;
             margin-top: 15px;
             padding-left: 10px;
-            h5{
+            h5 {
                 color: $tamnoSiva;
                 font-size: 18px;
                 font-weight: 500;
                 margin-bottom: 5px;
                 transition: all .5s ease;
-                &:hover{
+                &:hover {
                     color: $tamnoCrvena;
                 }
             }
-            h6{
+            h6 {
                 color: $siva;
                 font-weight: 400;
                 margin-bottom: 5px;
             }
         }
     }
-    .pogledajte-jos{
+    .pogledajte-jos {
         display: flex;
         justify-content: center;
         width: 100%;
-        .btn-warning{
-            background-color: $tamnoCrvena; 
+        .btn-warning {
+            background-color: $tamnoCrvena;
             height: 60px;
             width: 160px;
-            border:none;
+            border: none;
             font-weight: 500;
             font-size: 17px;
             color: $bela;
             transition: all .5s ease;
             border: 1px solid transparent;
             margin-bottom: 20px;
-            &:hover{
+            &:hover {
                 background-color: #fff;
                 color: $tamnoCrvena;
                 border: 1px solid $tamnoCrvena;
             }
         }
-       
     }
 }

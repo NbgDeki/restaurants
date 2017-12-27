@@ -1,10 +1,11 @@
-[class*='button-pick']{
+[class*='button-pick'] {
     padding: 0;
 }
-.button-pick{
+
+.button-pick {
     padding-left: 20px;
     margin-bottom: 30px;
-    .btn-default{
+    .btn-default {
         margin-left: 15px;
         margin-bottom: 10px;
         font-size: 14px;
@@ -13,12 +14,12 @@
         color: $svetloCrvena;
         border: 1px solid $siva2;
         transition: all .5s ease;
-        &:hover{
+        &:hover {
             background-color: $svetloCrvena;
             color: $bela;
         }
     }
-    .btn-outline-primary{
+    .btn-outline-primary {
         background-color: $bela;
         color: $tamnoSiva;
         border: 1px solid $siva2;
@@ -27,7 +28,7 @@
         font-size: 14px;
         font-weight: 300;
         transition: all .5s ease;
-        &:hover{
+        &:hover {
             background-color: $siva2;
             color: $bela;
         }

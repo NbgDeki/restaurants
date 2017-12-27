@@ -1,14 +1,58 @@
-.novosti-wrapper{
+.novosti-wrapper {
     width: 100%;
     height: 509px;
-    background: url('../img/cover/crveni-cover.jpg') no-repeat center;
-    display: table;
-    .novosti{
-        display: table-cell;
-        // vertical-align: middle;
-    }
-    .novosti-tekst{
-        width: 980px;
+    background: url('../img/cover/crveni-cover.jpg') no-repeat center; // display: table;
+    .novosti {
+        max-width: 800px;
         margin: 0 auto;
+    }
+    .novosti-sadrzaj {
+        text-align: center;
+    }
+    .novosti-heading {
+        h3 {
+            font-size: 26px;
+            font-weight: 400;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-bottom: 0;
+        }
+    }
+    .novosti-p {
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+    }
+    .slider2 {
+        max-width: 880px;
+        margin: 0 auto;
+    }
+    .restoran2 {}
+    .restoran-detaljnije {
+        padding: 10px 0 10px 0;
+        text-align: center;
+        background-color: $bela; // max-width: 273px;
+        p {
+            color: $siva;
+            font-weight: 400;
+            font-size: 14px;
+            padding: 0 20px;
+            margin-bottom: 0;
+        }
+        a {
+            text-decoration: none;
+            color: $tamnoCrvena;
+            text-transform: capitalize;
+            font-weight: 400;
+            font-size: 14px;
+        }
+        h3 {
+            font-weight: 500;
+            font-size: 16px;
+            text-transform: capitalize;
+            color: $tamnoSiva;
+        }
     }
 }

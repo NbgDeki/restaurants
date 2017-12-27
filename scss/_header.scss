@@ -1,32 +1,31 @@
-.full1{
+.full1 {
     width: 100%;
     height: 70px;
     background-color: $svetloSiva;
-    .container{
-        background-color: $svetloSiva; 
+    .container {
+        background-color: $svetloSiva;
     }
-    .restorani-beograd{
+    .restorani-beograd {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-auto-rows: minmax(auto, auto); 
+        grid-auto-rows: minmax(auto, auto);
     }
-    .logo-wrapper{
+    .logo-wrapper {
         grid-column: 1/7;
         display: flex;
         align-items: center;
         height: 70px;
-        img{
+        img {
             margin-left: 10px;
         }
     }
-    .odabir-grada{
-        
+    .odabir-grada {
         display: flex;
         align-items: center;
         margin-bottom: 0;
         margin-left: 20px;
     }
-    .form-control{
+    .form-control {
         width: 130px;
         text-transform: uppercase;
         border-radius: 0;
@@ -36,34 +35,33 @@
         font-weight: 400;
         background-color: $svetloSiva;
         color: $crna;
-        &:focus{
+        &:focus {
             outline-color: transparent;
             box-shadow: none;
         }
     }
-    .prijava{
-       grid-column: 7/13;
-       display: flex;
-       align-items: center;
-       justify-content: flex-end;
-       flex-shrink: 0;
-       a{
-           text-decoration: none;
-           font-weight: 500;
-           color: $tamnoCrvena;
-           transition: all .5s ease;
-           margin-right: 20px;
-           &:hover{
-               color: $crna;
-           }
-       }
+    .prijava {
+        grid-column: 7/13;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-shrink: 0;
+        a {
+            text-decoration: none;
+            font-weight: 500;
+            color: $tamnoCrvena;
+            transition: all .5s ease;
+            margin-right: 20px;
+            &:hover {
+                color: $crna;
+            }
+        }
     }
-    .odabir-drzave{
-        
+    .odabir-drzave {
         display: flex;
         align-items: center;
         margin-bottom: 0;
-        .form-control{
+        .form-control {
             width: 85px;
             border: none;
         }

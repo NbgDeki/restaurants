@@ -30,6 +30,36 @@ $(".prev").click(function () {
 $(".arrow-right").click(function () {
     owl.trigger('next.owl.carousel');
 });
+$(".slider2").owlCarousel({
+    items: 4,
+    autoplay:true,
+    smartSpeed:700,
+    loop: true,
+    autoplayHoverPause: true,
+    dots: false,
+    responsive : {
+    // breakpoint from 0 up
+    0 : {
+    items: 1
+    },
+    // breakpoint from 480 up
+    480 : {
+    items: 2
+    },
+    // breakpoint from 768 up
+    768 : {
+    items: 3
+    }
+    }
+    });
+    owl = $('.slider1').owlCarousel();
+$(".prev").click(function () {
+    owl.trigger('prev.owl.carousel');
+});
+
+$(".arrow-right").click(function () {
+    owl.trigger('next.owl.carousel');
+});
 /************************************************************
 
 						              ZVEZDICE
