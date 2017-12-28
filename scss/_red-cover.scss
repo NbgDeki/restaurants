@@ -2,9 +2,35 @@
     width: 100%;
     height: 509px;
     background: url('../img/cover/crveni-cover.jpg') no-repeat center; // display: table;
+    
     .novosti {
         max-width: 800px;
         margin: 0 auto;
+        position: relative;
+        .arrow-right {
+            cursor: pointer;
+            width: 20px;
+            height: 20px;
+            border-top: 2px solid $bela;
+            border-right: 2px solid $bela;
+            background-color: transparent;
+            position: absolute;
+            right: -70px;
+            top: 285px;
+            transform: rotate(45deg);
+        }
+        .arrow-left{
+            cursor: pointer;
+            width: 20px;
+            height: 20px;
+            border-top: 2px solid $bela;
+            border-right: 2px solid $bela;
+            background-color: transparent;
+            position: absolute;
+            left: -70px;
+            top: 285px;
+            transform: rotate(-135deg);
+        }
     }
     .novosti-sadrzaj {
         text-align: center;

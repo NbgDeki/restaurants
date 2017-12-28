@@ -1,0 +1,45 @@
+.za-vlasnike{
+    background: url('../img/cover/restorani-cover2.jpg') no-repeat;
+    height: 380px;
+    display: flex;
+    align-items: center;
+}
+
+.za-vlasnike-prijavite{
+    max-width: 800px;
+    margin: 0 auto;
+    .za-vlasnike-heading{
+        margin-bottom: 45px;
+        h5{
+            color: $tamnoSiva2;
+            font-size: 28px;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+    }
+    .za-vlasnike-tekst{
+        margin-bottom: 40px;
+        p{
+            font-weight: 400;
+            font-size: 20px;
+            color: $tamnoSiva;
+            margin-bottom: 0;
+        }
+    }
+    .btn-primary{
+        width: 215px;
+        height: 50px;
+        background-color: $tamnoCrvena;
+        color: $bela;
+        font-weight: 500;
+        font-size: 17px;
+        transition: all .5s ease;
+        border: 1px solid transparent;
+        margin-bottom: 20px;
+            &:hover {
+                background-color: #fff;
+                color: $tamnoCrvena;
+                border: 1px solid $tamnoCrvena;
+            }
+    }
+}

@@ -6,6 +6,7 @@
 
 $svetloSiva: #f5f3f4;
 $tamnoSiva: #333333;
+$tamnoSiva2: #5a5a5a;
 $siva: #999999;
 $siva2: #c9c9c9;
 $tamnoCrvena: #960202;
@@ -20,6 +21,7 @@ $bela: #fff;
 @import "slider";
 @import "preporuke";
 @import "red-cover";
+@import "za-vlasnike";
 @import "responsive";
 .jq-ry-container {
 	padding: 0;
@@ -29,6 +31,7 @@ $bela: #fff;
 // 	width: 100%;
 // 	height: auto;
 // }
+
 .lista-header {
 	text-align: left;
 	width: 100%;

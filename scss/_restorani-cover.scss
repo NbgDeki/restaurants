@@ -2,7 +2,7 @@
     margin-bottom: 30px;
     display: table;
     height: 460px;
-    background: url('../img/cover/restorani-cover.jpg');
+    background: url('../img/cover/restorani-cover.jpg') no-repeat;
     .forme1-wrapper {
         display: table-cell;
         vertical-align: middle;
@@ -50,10 +50,12 @@
                 width: 160px;
                 background-color: $tamnoCrvena;
                 color: $bela;
+                border: 1px solid transparent;
                 transition: all .5s ease; // border-radius: 0;
                 &:hover {
                     background-color: $svetloSiva;
                     color: $crna;
+                    border: 1px solid $tamnoCrvena;
                 }
             }
         }

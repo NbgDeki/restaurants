@@ -95,7 +95,7 @@ html {
   margin-bottom: 30px;
   display: table;
   height: 460px;
-  background: url("../img/cover/restorani-cover.jpg"); }
+  background: url("../img/cover/restorani-cover.jpg") no-repeat; }
   .naslov-forme .forme1-wrapper {
     display: table-cell;
     vertical-align: middle; }
@@ -132,10 +132,12 @@ html {
       width: 160px;
       background-color: #960202;
       color: #fff;
+      border: 1px solid transparent;
       transition: all .5s ease; }
       .naslov-forme .forme1 .form-group .btn-default:hover {
         background-color: #f5f3f4;
-        color: #000; }
+        color: #000;
+        border: 1px solid #960202; }
 
 [class*='button-pick'] {
   padding: 0; }
@@ -241,7 +243,7 @@ html {
     display: flex;
     justify-content: center;
     width: 100%; }
-    .full2 .pogledajte-jos .btn-warning {
+    .full2 .pogledajte-jos .btn-primary {
       background-color: #960202;
       height: 60px;
       width: 160px;
@@ -252,7 +254,7 @@ html {
       transition: all .5s ease;
       border: 1px solid transparent;
       margin-bottom: 20px; }
-      .full2 .pogledajte-jos .btn-warning:hover {
+      .full2 .pogledajte-jos .btn-primary:hover {
         background-color: #fff;
         color: #960202;
         border: 1px solid #960202; }
@@ -354,7 +356,30 @@ html {
   background: url("../img/cover/crveni-cover.jpg") no-repeat center; }
   .novosti-wrapper .novosti {
     max-width: 800px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    position: relative; }
+    .novosti-wrapper .novosti .arrow-right {
+      cursor: pointer;
+      width: 20px;
+      height: 20px;
+      border-top: 2px solid #fff;
+      border-right: 2px solid #fff;
+      background-color: transparent;
+      position: absolute;
+      right: -70px;
+      top: 285px;
+      transform: rotate(45deg); }
+    .novosti-wrapper .novosti .arrow-left {
+      cursor: pointer;
+      width: 20px;
+      height: 20px;
+      border-top: 2px solid #fff;
+      border-right: 2px solid #fff;
+      background-color: transparent;
+      position: absolute;
+      left: -70px;
+      top: 285px;
+      transform: rotate(-135deg); }
   .novosti-wrapper .novosti-sadrzaj {
     text-align: center; }
   .novosti-wrapper .novosti-heading h3 {
@@ -394,6 +419,44 @@ html {
       font-size: 16px;
       text-transform: capitalize;
       color: #333333; }
+
+.za-vlasnike {
+  background: url("../img/cover/restorani-cover2.jpg") no-repeat;
+  height: 380px;
+  display: flex;
+  align-items: center; }
+
+.za-vlasnike-prijavite {
+  max-width: 800px;
+  margin: 0 auto; }
+  .za-vlasnike-prijavite .za-vlasnike-heading {
+    margin-bottom: 45px; }
+    .za-vlasnike-prijavite .za-vlasnike-heading h5 {
+      color: #5a5a5a;
+      font-size: 28px;
+      font-weight: 500;
+      margin-bottom: 0; }
+  .za-vlasnike-prijavite .za-vlasnike-tekst {
+    margin-bottom: 40px; }
+    .za-vlasnike-prijavite .za-vlasnike-tekst p {
+      font-weight: 400;
+      font-size: 20px;
+      color: #333333;
+      margin-bottom: 0; }
+  .za-vlasnike-prijavite .btn-primary {
+    width: 215px;
+    height: 50px;
+    background-color: #960202;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    transition: all .5s ease;
+    border: 1px solid transparent;
+    margin-bottom: 20px; }
+    .za-vlasnike-prijavite .btn-primary:hover {
+      background-color: #fff;
+      color: #960202;
+      border: 1px solid #960202; }
 
 @media (max-width: 575px) {
   .container {

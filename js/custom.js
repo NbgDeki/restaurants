@@ -52,8 +52,8 @@ $(".slider2").owlCarousel({
     }
     }
     });
-    owl = $('.slider1').owlCarousel();
-$(".prev").click(function () {
+    owl = $('.slider2').owlCarousel();
+$(".arrow-left").click(function () {
     owl.trigger('prev.owl.carousel');
 });
 
